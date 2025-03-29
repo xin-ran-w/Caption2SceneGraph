@@ -169,3 +169,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+unsloth_compiled_cache/
+unsloth_training_checkpoints/
+data/
+configs/tokens.json
+outputs/
+gather_deepseek.py
+Text2SG-Qwen2.5-3B-Instruct
