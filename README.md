@@ -8,8 +8,6 @@ Caption2SceneGraph is a tool that converts natural language image descriptions i
 - Visual fact extraction from captions
 - Scene graph parsing with entity recognition
 - Attribute and relationship extraction
-- Reference expression generation for entities
-- Support for DeepSeek Chat model
 
 ## Installation
 
@@ -19,6 +17,8 @@ cd Caption2SceneGraph
 pip install -r requirements.txt
 ```
 
-## Usage
+## Finetuning Dataset
+
+We collect 1k parser results from the deepseek-chat API. We upload the input text and output scene graph paired dataset here: [Xinran0906/Text2SG](https://huggingface.co/datasets/Xinran0906/Text2SG). You can use this dataset to train your own parser.
 
 
